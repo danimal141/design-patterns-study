@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class Cricket extends Game {
+
     @Override
     void initialize() {
         System.out.println("Cricket Game Initialized! Start playing.");
@@ -16,4 +17,5 @@ public class Cricket extends Game {
     void endPlay() {
         System.out.println("Cricket Game Finished!");
     }
+
 }

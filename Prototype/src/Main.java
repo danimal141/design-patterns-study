@@ -2,6 +2,7 @@
  * Created by hideaki on 9/30/15.
  */
 public class Main {
+
     public static void main(String[] args) {
         ShapeCache.loadCache();
 
@@ -17,4 +18,5 @@ public class Main {
         System.out.println("Shape : " + clonedShape3.getType());
         clonedShape3.draw();
     }
+
 }

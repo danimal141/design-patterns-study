@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class AudioPlayer implements MediaPlayer {
+
     MediaAdapter mediaAdapter;
 
     @Override
@@ -18,4 +19,5 @@ public class AudioPlayer implements MediaPlayer {
             System.out.println("Invalid media. " + audioType + " format not supported");
         }
     }
+
 }

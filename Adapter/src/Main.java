@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class Main {
+
     public static void main(String[] args) {
         AudioPlayer audioPlayer = new AudioPlayer();
 
@@ -10,4 +11,5 @@ public class Main {
         audioPlayer.play("vlc", "far far away.vlc");
         audioPlayer.play("avi", "mind me.avi");
     }
+
 }

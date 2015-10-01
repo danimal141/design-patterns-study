@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class Mp4Player implements AdvancedMediaPlayer {
+
     @Override
     public void playVlc(String fileName) {
         // do nothing
@@ -11,4 +12,5 @@ public class Mp4Player implements AdvancedMediaPlayer {
     public void playMp4(String fileName) {
         System.out.println("Playing mp4 file. Name: "+ fileName);
     }
+
 }

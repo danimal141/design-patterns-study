@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class Main {
+
     public static void main(String[] args) {
         //illegal construct
         //Compile Time Error: The constructor SingleObject() is not visible
@@ -11,4 +12,5 @@ public class Main {
         SingleObject object = SingleObject.getInstance();
         object.showMessage();
     }
+
 }

@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class SingleObject {
+
     //create an object of SingleObject
     private static SingleObject instance = new SingleObject();
 
@@ -17,4 +18,5 @@ public class SingleObject {
     public void showMessage() {
         System.out.println("Hello World!");
     }
+
 }

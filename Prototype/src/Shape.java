@@ -2,6 +2,7 @@
  * Created by hideaki on 9/30/15.
  */
 public abstract class Shape implements Cloneable {
+
     private String id;
     protected String type;
 
@@ -30,4 +31,5 @@ public abstract class Shape implements Cloneable {
 
         return clone;
     }
+
 }

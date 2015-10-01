@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class NameRepository implements Container {
+
     public String names[] = {"Robert" , "John" ,"Julie" , "Lora"};
 
     @Override
@@ -26,4 +27,5 @@ public class NameRepository implements Container {
             return null;
         }
     }
+
 }

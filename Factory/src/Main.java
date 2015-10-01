@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class Main {
+
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
 
@@ -23,4 +24,5 @@ public class Main {
         //call draw method of circle
         shape3.draw();
     }
+
 }

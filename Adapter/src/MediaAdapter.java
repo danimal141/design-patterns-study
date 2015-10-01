@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class MediaAdapter implements MediaPlayer {
+
     AdvancedMediaPlayer advancedMediaPlayer;
 
     public MediaAdapter(String audioType) {
@@ -20,4 +21,5 @@ public class MediaAdapter implements MediaPlayer {
             this.advancedMediaPlayer.playMp4(fileName);
         }
     }
+
 }

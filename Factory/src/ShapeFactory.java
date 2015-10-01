@@ -2,6 +2,7 @@
  * Created by hideaki on 9/27/15.
  */
 public class ShapeFactory {
+
     //use getShape method to get object of type shape
     public Shape getShape(String shapeType) {
         if (shapeType == null) { return null; }
@@ -17,4 +18,5 @@ public class ShapeFactory {
         }
         return null;
     }
+
 }
