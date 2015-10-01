@@ -9,13 +9,13 @@ public abstract class Game {
 
     public final void play() {
         //initialize the game
-        this.initialize();
+        initialize();
 
         //start game
-        this.startPlay();
+        startPlay();
 
         //end game
-        this.endPlay();
+        endPlay();
     }
 
 }

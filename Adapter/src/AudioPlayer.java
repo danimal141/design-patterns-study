@@ -13,8 +13,8 @@ public class AudioPlayer implements MediaPlayer {
         }
         //mediaAdapter is providing support to play other file formats
         else if (audioType.equalsIgnoreCase("vlc") || audioType.equalsIgnoreCase("mp4")) {
-            this.mediaAdapter = new MediaAdapter(audioType);
-            this.mediaAdapter.play(audioType, fileName);
+            mediaAdapter = new MediaAdapter(audioType);
+            mediaAdapter.play(audioType, fileName);
         } else {
             System.out.println("Invalid media. " + audioType + " format not supported");
         }
