@@ -1,10 +1,10 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 /**
  * Created by hideaki on 10/3/15.
  */
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Iterator;
-
 public class Menu {
 
     List<Item> menuItems;

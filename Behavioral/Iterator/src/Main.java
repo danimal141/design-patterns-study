@@ -1,8 +1,8 @@
+import java.util.Iterator;
+
 /**
  * Created by hideaki on 9/27/15.
  */
-import java.util.Iterator;
-
 public class Main {
 
     public static void main(String[] args) {

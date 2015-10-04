@@ -1,9 +1,8 @@
+import java.util.Hashtable;
+
 /**
  * Created by hideaki on 9/30/15.
  */
-
-import java.util.Hashtable;
-
 public class ShapeCache {
 
     private static Hashtable<String, Shape> shapeMap = new Hashtable<String, Shape>();
@@ -29,7 +28,6 @@ public class ShapeCache {
         Square square = new Square();
         square.setId("square");
         shapeMap.put(square.getId(),square);
-
     }
 
 }
